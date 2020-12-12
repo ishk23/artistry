@@ -12,7 +12,7 @@ class Main extends Component {
             <div className="content mr-auto ml-auto">
               <p>&nbsp;</p>
               <div className="d-flex align-items-center justify-content-center">
-                <h2>Get Rewarded for your talent!</h2>
+                <h2 style={{ color: "#343A40" }}>Get Rewarded for your talent!</h2>
               </div>
               <p>&nbsp;</p>
               <form onSubmit={(event) => {
