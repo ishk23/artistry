@@ -12,6 +12,10 @@
 }
 
 .row-div {
-  background-color: #f1714e;
+  background-color: #ffb9a6;
   min-height: 100vh;
+}
+
+.choose-file-btn {
+  color: #ffb9a6;
 }

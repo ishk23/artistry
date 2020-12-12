@@ -20,7 +20,10 @@ class Main extends Component {
                 const description = this.imageDescription.value
                 this.props.uploadImage(description)
               }} >
-                <input type='file' accept=".jpg, .jpeg, .png, .bmp, .gif" onChange={this.props.captureFile} />
+
+                <input type='file' name='file' className="choose-file-btn" accept=".jpg, .jpeg, .png, .bmp, .gif" onChange={this.props.captureFile} />
+
+
                 <div className="form-group mr-sm-2">
                   <br></br>
                   <input
@@ -56,7 +59,7 @@ class Main extends Component {
                       </li>
                       <li key={key} className="list-group-item py-2">
                         <small className="float-left mt-1 text-muted">
-                          TIPS: {window.web3.utils.fromWei(image.tipAmount.toString(), 'Ether')} ETH
+                          SUPPORT: {window.web3.utils.fromWei(image.tipAmount.toString(), 'Ether')} ETH
                         </small>
                         <button
                           className="btn btn-link btn-sm float-right pt-0"
@@ -67,7 +70,7 @@ class Main extends Component {
                             this.props.tipImageOwner(event.target.name, tipAmount)
                           }}
                         >
-                          TIP 0.1 ETH
+                          GIFT 0.1 ETH
                         </button>
                       </li>
                     </ul>
