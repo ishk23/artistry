@@ -1,1 +1,17 @@
-/* Styles go here */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-div {
+  height: 50px;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+
+.row-div {
+  background-color: #f1714e;
+  min-height: 100vh;
+}

@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
+import Button from 'react-bootstrap/Button'
 
 class Main extends Component {
 
   render() {
     return (
       <div className="container-fluid mt-5">
-        <div className="row">
+        <div className="row row-div">
           <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '500px' }}>
             <div className="content mr-auto ml-auto">
               <p>&nbsp;</p>
-
-              <h2>Share Image</h2>
+              <div className="d-flex align-items-center justify-content-center">
+                <h2>Get Rewarded for your talent!</h2>
+              </div>
+              <p>&nbsp;</p>
               <form onSubmit={(event) => {
                 event.preventDefault()
                 const description = this.imageDescription.value
@@ -25,10 +28,11 @@ class Main extends Component {
                     type="text"
                     ref={(input) => { this.imageDescription = input }}
                     className="form-control"
-                    placeholder="Image description..."
+                    placeholder="Write a caption..."
                     required />
                 </div>
-                <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
+                <Button type="submit" variant="dark btn-block btn-lg">Upload</Button>
+                {/* <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button> */}
               </form>
 
               <p>&nbsp;</p>
