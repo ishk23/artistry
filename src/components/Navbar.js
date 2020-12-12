@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
-import photo from '../photo.png'
+import logo from '../a.png';
 
 class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow nav-div">
+        <div className="logo-div ml-5">
+          <img src={logo} height="30px" width="30px" />
+          <div style={{ color: "white" }} className="ml-0">Artistry</div>
+        </div>
 
-        <div style={{ color: "white" }} className="ml-5">Artistry</div>
 
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">

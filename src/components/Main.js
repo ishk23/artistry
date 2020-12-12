@@ -1,23 +1,29 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
+import Button from 'react-bootstrap/Button'
 
 class Main extends Component {
 
   render() {
     return (
       <div className="container-fluid mt-5">
-        <div className="row">
+        <div className="row row-div">
           <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '500px' }}>
             <div className="content mr-auto ml-auto">
               <p>&nbsp;</p>
-
-              <h2>Share Image</h2>
+              <div className="d-flex align-items-center justify-content-center">
+                <h2>Get Rewarded for your talent!</h2>
+              </div>
+              <p>&nbsp;</p>
               <form onSubmit={(event) => {
                 event.preventDefault()
                 const description = this.imageDescription.value
                 this.props.uploadImage(description)
               }} >
-                <input type='file' accept=".jpg, .jpeg, .png, .bmp, .gif" onChange={this.props.captureFile} />
+
+                <input type='file' name='file' className="choose-file-btn" accept=".jpg, .jpeg, .png, .bmp, .gif" onChange={this.props.captureFile} />
+
+
                 <div className="form-group mr-sm-2">
                   <br></br>
                   <input
@@ -25,10 +31,11 @@ class Main extends Component {
                     type="text"
                     ref={(input) => { this.imageDescription = input }}
                     className="form-control"
-                    placeholder="Image description..."
+                    placeholder="Write a caption..."
                     required />
                 </div>
-                <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
+                <Button type="submit" variant="dark btn-block btn-lg">Upload</Button>
+                {/* <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button> */}
               </form>
 
               <p>&nbsp;</p>
@@ -52,7 +59,7 @@ class Main extends Component {
                       </li>
                       <li key={key} className="list-group-item py-2">
                         <small className="float-left mt-1 text-muted">
-                          TIPS: {window.web3.utils.fromWei(image.tipAmount.toString(), 'Ether')} ETH
+                          SUPPORT: {window.web3.utils.fromWei(image.tipAmount.toString(), 'Ether')} ETH
                         </small>
                         <button
                           className="btn btn-link btn-sm float-right pt-0"
@@ -63,7 +70,7 @@ class Main extends Component {
                             this.props.tipImageOwner(event.target.name, tipAmount)
                           }}
                         >
-                          TIP 0.1 ETH
+                          GIFT 0.1 ETH
                         </button>
                       </li>
                     </ul>
