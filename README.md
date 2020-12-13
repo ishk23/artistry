@@ -50,7 +50,7 @@ truffle migrate --network matic
 Sign in with your Portis account 
 
 
-![portis-signin](matic-network.gif)
+![portis-signin](portis-signin.gif)
 
 Make one click payments to the desired post!
 
