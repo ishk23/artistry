@@ -45,10 +45,23 @@ class App extends Component {
     }
   }
 
+
   async loadBlockchainData() {
-    const web3 = window.web3
+
+    const myPrivateEthereumNode = {
+
+      nodeUrl: 'http://localhost:7545',
+
+      chainId: 1337,
+
+    };
+
+    const portis = new Portis('f2505ed2-81f6-4d85-a75b-2b92b835e9cf', myPrivateEthereumNode);
+    const web3 = new Web3(portis.provider);
+    // const web3 = window.web3
 
     const accounts = await web3.eth.getAccounts()
+    console.log(accounts)
     this.setState({ account: accounts[0] })
 
     const networkId = await web3.eth.net.getId()
