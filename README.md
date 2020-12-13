@@ -36,6 +36,8 @@ git clone -b matic test https://github.com/ishk23/artistry
 
 Add the matic mumbai testnet to metamask if not already added
 
+![matic network metamask](matic-network.gif)
+
 Run truffle migrate with network as matic
 
 ```bash
