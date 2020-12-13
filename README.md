@@ -1,6 +1,6 @@
 # Artistry
 
-Artistry is an Ethereum based dapp for artists to post with anonymity
+Artistry is an Ethereum based dapp for artists to get tipped for their work
 ## Installation
 
 Clone the repository's master branch and run
