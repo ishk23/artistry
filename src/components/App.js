@@ -45,6 +45,7 @@ class App extends Component {
     }
   }
 
+
   async loadBlockchainData() {
 
     //Portis Integration 
@@ -63,6 +64,7 @@ class App extends Component {
 
 
     const accounts = await web3.eth.getAccounts()
+    console.log(accounts)
     this.setState({ account: accounts[0] })
 
     const networkId = await web3.eth.net.getId()

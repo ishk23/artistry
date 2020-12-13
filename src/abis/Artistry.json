@@ -5028,12 +5028,21 @@
         }
       },
       "links": {},
+<<<<<<< HEAD
       "address": "0x34ea6364556A08E951743f43e40afF8bfa5c8541",
       "transactionHash": "0x3e7e22c96bd8fedfd04c796e183f00ff25c9656392258f80f6f7d242977fd202"
     }
   },
   "schemaVersion": "3.3.2",
   "updatedAt": "2020-12-12T18:09:04.578Z",
+=======
+      "address": "0xa75a1819d56f15aeB7A465142d8E7ac010dEB76B",
+      "transactionHash": "0x9e99f72689321d3a21cf467c198fedc9bd10dbbfdeb392208d4be51789014419"
+    }
+  },
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-12-13T06:08:07.660Z",
+>>>>>>> d23650f194090b40718057c5da3631445e19453a
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
