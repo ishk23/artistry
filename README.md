@@ -54,3 +54,5 @@ Sign in with your Portis account
 
 Make one click payments to the desired post!
 
+![payment-success](payment-success.gif)
+
