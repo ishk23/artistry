@@ -1381,57 +1381,12 @@
     "5777": {
       "events": {},
       "links": {},
-<<<<<<< HEAD
-      "address": "0xd099b9580b725500FD6e966d8446a308f5b14Cb8",
-      "transactionHash": "0x1adce257097f6cb0c83544a5b9b7043df3fec55932e55dc4427636d2fbaa93ba"
-=======
-      "address": "0x7b04c6f3b9CeE613d08791c61d6D8ec2492aEEAa",
-      "transactionHash": "0x21d1c8735dd4ec4da2fb390ddb8ba46fbfba46c467a4afda07eef95049bb28ae"
->>>>>>> d23650f194090b40718057c5da3631445e19453a
-    },
-    "1601483654711": {
-      "events": {},
-      "links": {},
-      "address": "0x2CbCAe09Fd1Affa06C732e54EEE6DdF183337472",
-      "transactionHash": "0x83c4a9f976a2a33bfa0ec8e4c8e26b28282eb239cef59206dbf6ce639db9ba0a"
-    },
-    "1601519134588": {
-      "events": {},
-      "links": {},
-      "address": "0xd0Ec6Ae91337DBa6f8f5ABC098F043bE8D3B3f47",
-      "transactionHash": "0x63e41e7d4cbbb12fb65f1a2026548759b7ee769c0258ff44030d4ac6e5bd7c1c"
-    },
-    "1601569818716": {
-      "events": {},
-      "links": {},
-      "address": "0x7E15d1a8f440eff84e1c798880cac14537A8fC20",
-      "transactionHash": "0xdd7e1f2a583bb251f266181f53ae7d7cc91af6779d3cba74f42d459e8bc16dd5"
-    },
-    "1601570969872": {
-      "events": {},
-      "links": {},
-      "address": "0x97E4Eb881cCeBb61a6bB31a37a8Ca0087bcaf704",
-      "transactionHash": "0xa6af48277cfe4ebd2cb213fb92a3f2011c3a83c6cc00b710f5c2bf9759b28d21"
-    },
-    "1601608424760": {
-      "events": {},
-      "links": {},
-      "address": "0x8CB25adCd621bf917e9B45524eee0630f1EFFbF8",
-      "transactionHash": "0x192245af10141edf208cb279e4f6c0477702d296234b5e74bde4f0ebd4238b3a"
-    },
-    "1601616853749": {
-      "events": {},
-      "links": {},
-      "address": "0xa667bB805cab820db8609621804A32d130C6FA18",
-      "transactionHash": "0x32ec55d5a5f902c27f88a82a2a5c57d9afa569c17ea86200522c6a9adbbd8514"
+      "address": "0x85485f8Ed21af85e842244122645bE18c429E42E",
+      "transactionHash": "0xdb933fae170ab70de974e016ba03a28a521a82805dc2dd8bca1e4cafc7b8779c"
     }
   },
   "schemaVersion": "3.3.2",
-<<<<<<< HEAD
-  "updatedAt": "2020-12-12T18:09:04.583Z",
-=======
-  "updatedAt": "2020-12-13T06:08:07.664Z",
->>>>>>> d23650f194090b40718057c5da3631445e19453a
+  "updatedAt": "2020-12-13T06:25:17.303Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

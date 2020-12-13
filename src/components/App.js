@@ -58,7 +58,7 @@ class App extends Component {
 
     };
 
-    const portis = new Portis('5f1d2478-3668-42be-aa05-0943b1a491e1', myPrivateEthereumNode);
+    const portis = new Portis('5f1d2478-3668-42be-aa05-0943b1a491e1', 'maticTestnet');
 
     const web3 = new Web3(portis.provider);
 
